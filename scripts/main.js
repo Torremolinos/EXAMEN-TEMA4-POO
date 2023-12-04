@@ -30,7 +30,7 @@ localStorage.setItem("vehiculo", JSON.stringify(vehiculoObject));
 //Recupero el JSON y lo transformo otra vez a objeto.
 JSON.parse(localStorage.getItem("vehiculo", vehiculoObject))
 //Imprimo el objeto.
-console.log(vehiculoObject)
+console.log("vehiculo",vehiculoObject); //le pongo vehiculo para indetificarlo bien en el console.
 
 //Instancio el objeto deportivo1, de la clase AutomovilesDeportivo 
 const deportivo1 = new AutomovilDeportivo("Ferrari", "Spider", "Amarillo", 2020, 4000, 500);
