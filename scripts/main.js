@@ -15,3 +15,21 @@ vehiculo1.arrancar();
 vehiculo1.acelerar(140);
 vehiculo1.frenar();
 
+const vehiculoObject = {
+    marca: vehiculo1.marca,
+    modelo: vehiculo1.modelo,
+    color: vehiculo1.color,
+    fabricacion: vehiculo1.fabricacion,
+    cilindrada: vehiculo1.cilindrada,
+}
+
+JSON.stringify("vehiculo", vehiculoObject);
+localStorage.setItem("vehiculo", vehiculoObject);
+
+
+const deportivo1 = new AutomovilDeportivo("Ferrari", "Spider", "Amarillo", 2020, 4000, 500);
+mostrarDatos(`------Muestro los datos del Automóvil Deportivo------`)
+deportivo1.arrancar();
+deportivo1.acelerar(140);
+deportivo1.frenar();
+
