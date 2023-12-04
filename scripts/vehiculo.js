@@ -45,6 +45,7 @@ export class Vehiculo {
         this.#cilindrada = valor;
     }
 
+    //metodo to string para imprimirlo todo usando el metodo llamado del main.
     toString() {
         const datos = `La marca del coche es : ${this.marca} <br/>
         el modelo del coche es : ${this.modelo} <br/> 
