@@ -59,7 +59,7 @@ export class Vehiculo {
         mostrarDatos(datos);
     }
     acelerar(velocidad) {
-        const datos = `La velocidad del coche de la marca : this.${this.#marca} es ${velocidad} km/h `
+        const datos = `La velocidad del coche es: ${velocidad} km/h `
         mostrarDatos(datos);
     }
     frenar(){

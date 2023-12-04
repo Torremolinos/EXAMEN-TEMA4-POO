@@ -1,4 +1,5 @@
-import {mostrarDatos} from './main.js'
+import {mostrarDatos} from './main.js';
+import { Vehiculo } from './vehiculo.js';
 export class AutomovilDeportivo extends Vehiculo {
     #potenciaMotor;
 
