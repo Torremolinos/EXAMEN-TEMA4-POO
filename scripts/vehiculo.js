@@ -49,7 +49,7 @@ export class Vehiculo {
         const datos = `La marca del coche es : ${this.marca} <br/>
         el modelo del coche es : ${this.modelo} <br/> 
         el color del coche es : ${this.color} <br/>
-        el año de fabricacion del coche es : ${this.#fabricacion} <br/>
+        el año de fabricación del coche es : ${this.#fabricacion} <br/>
         la cilindrada del coche es : ${this.cilindrada} <br/>
         `
         mostrarDatos(datos);

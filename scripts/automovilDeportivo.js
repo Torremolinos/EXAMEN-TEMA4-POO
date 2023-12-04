@@ -18,7 +18,7 @@ export class AutomovilDeportivo extends Vehiculo {
 
     toString(){
         super.toString();
-        const datos = `La potencia del motor del coche es : ${this.#potenciaMotor}`
+        const datos = `La potencia del motor del coche es : ${this.#potenciaMotor} caballos`
         mostrarDatos(datos);
     }
 
