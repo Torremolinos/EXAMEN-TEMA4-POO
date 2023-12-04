@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+body {
+    background-image: url("../assets/imgs/kame.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-family: "Poppins";
+    color: white;
+}
+h1{
+    font-family: "Poppins";
+    color: white;
+}
