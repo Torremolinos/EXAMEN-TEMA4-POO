@@ -9,7 +9,7 @@ export function mostrarDatos(datos) {
 }
 //Instancio la vehiculo1 con el constructor de la clase Vehiculo
 const vehiculo1 = new Vehiculo('BMW', 'CLK', 'rojo', 1992, 2400)
-mostrarDatos(`-------Muestro los datos del vehiculo 1-------`)
+mostrarDatos(`-----------Muestro los datos del vehiculo 1-----------`)
 //Muestro los datos del vehiculo1
 vehiculo1.toString()
 //Muestro los metodos por pantalla.
